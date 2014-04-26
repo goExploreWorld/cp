@@ -15,7 +15,7 @@ printf("     No, No1, No2, No3, No4, No5, No6, No7,\n") > "ssqresult.csv"
 		}
 	}	
 
-	if ($0 ~/<td class="td3"><span class="result">	<span class="ball_1">/)
+	if ($0 ~/<td class="td3"><span class="result">                        <span class="ball_1">/)
 	{
 		printf("%4d,", $7) > "ssqresult.csv"
 		next
