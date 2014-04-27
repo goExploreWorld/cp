@@ -1,6 +1,6 @@
 BEGIN {
 FS="[<>]"
-printf("     No, No1, No2, No3, No4, No5, No6, No7,\n") > "ssqresult.csv"
+printf("     No, No1, No2, No3, No4, No5, No6, No7\n") > "ssqresult.csv"
 }
 
 {

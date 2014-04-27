@@ -1,3 +1,4 @@
-1.从http://baidu.lecai.com/转到双色球历史数据区
+1.从http://baidu.lecai.com/转到大乐透历史数据区
 2.查看源代码，将其保存
 3.awk -f 0ssqFrom_code.awk 保存的源代码
+4.得到最原始的数据
